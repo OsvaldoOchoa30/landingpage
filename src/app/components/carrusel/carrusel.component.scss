@@ -1,0 +1,24 @@
+.custom-carousel {
+    width: 100%;
+    margin: 25px;
+     /* Asegura que el header quede sobre otros elementos */
+    
+    .product-item {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+      
+       
+
+        .product-image {
+            width: 80%;
+            height: auto; // Ajusta la altura máxima según lo que necesites
+            object-fit: cover; // Asegura que la imagen cubra el área
+        }  
+
+    }
+
+    
+
+}

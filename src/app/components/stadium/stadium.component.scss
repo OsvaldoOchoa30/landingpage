@@ -1,0 +1,45 @@
+.stadium{
+    margin-top: 50px;
+    height: 610px;
+}
+
+
+.stadiumimg{
+    margin-top: 30px;
+    height: 640px;
+    width: 100%;
+}
+
+.container{
+    background-color: rgba(0, 0, 0, 0.733);
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    text-align: right;
+    margin-top: 30px;
+    margin-left: 54%;
+    height: 640px;
+    width: 46%;
+}
+
+.title{
+    font-size: 76px;
+    color: aliceblue;
+    margin: 0px;
+    margin-right:40px;
+}
+
+.location{
+    font-size: 76px;
+    color: rgb(230, 0, 0);
+    margin: 0px;
+    margin-right:40px;
+}
+
+.text{
+    color: white;
+    font-size: 49px;
+    margin-top: 76px;
+    margin-right: 40px;
+}
+

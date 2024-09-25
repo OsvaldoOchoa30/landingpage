@@ -1,0 +1,33 @@
+.jordanimg{
+    margin-top: 30px;
+    height: auto;
+    width: 100%;
+}
+
+.container{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    height: 79%;
+    width: 45%;
+    background-color: rgba(0, 0, 0, 0.783);
+    margin-top: 30px;
+}
+
+.title{
+    margin: 0px;
+    font-size: 50px;
+    color: white;
+    text-align: center;
+    padding: 5px;
+}
+
+.text{
+    margin: 0px;
+    margin-top: 20px;
+    font-size: 26px;
+    padding: 25px;
+    text-align: justify;
+    align-items:center;
+    color: white;
+}

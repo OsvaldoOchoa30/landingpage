@@ -1,0 +1,26 @@
+footer {
+    background-color: #000000;
+    color: #fff;
+    text-align: center;
+    height: 200px;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+
+
+
+.colab img, .social-icons img {
+    margin: 5px;
+    transition: transform 0.3s;
+}
+
+.colab img:hover, .social-icons img:hover {
+    transform: scale(1.1);
+}
+

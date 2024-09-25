@@ -1,0 +1,84 @@
+// Definición de variables
+$secondary-color: rgb(205, 205, 205);
+$text-color: hsl(0, 0%, 0%);
+$shadow-color:  rgba(254, 183, 122, 1);
+$hover-shadow-color: rgba(0, 0, 0, 0.4);
+$card-width: 400px;
+$card-padding: 18px;
+$transition-duration: 0.3s;
+$margin-top: 40px;
+
+// Uso de las variables en el código
+
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+.title{
+    display: flex;
+    justify-content: center;
+
+    font-size: 60px;
+    color: white;
+    margin-top: 75px;
+}
+
+.year{
+    color: rgba(254, 183, 122, 1);
+    margin-left: 20px;
+}
+
+.card-container {
+  display:flex;
+  justify-content:center;
+  flex-wrap: wrap;
+  margin-top: $margin-top;
+
+
+
+.card {
+  width: $card-width;
+  background-color: $secondary-color;
+  overflow: hidden;
+  box-shadow: 0px 2px 4px $shadow-color;
+  margin: 45px;
+  transition: transform $transition-duration ease, box-shadow 1s ease;
+
+  &:hover {
+    transform: scale(1.05);
+    box-shadow: 20px 30px 20px $hover-shadow-color;
+  }
+
+  img {
+    width: $card-width;
+    height: 450px;
+    transition: transform 20s ease;
+
+    &:hover {
+      transform: scale(1.1);
+    }
+  }
+
+  .card-content {
+    padding: $card-padding;
+  
+    h3 {
+      font-size: 26px;
+      margin-bottom: 10px;
+      text-align: center;
+    }
+  
+    p {
+      color: $text-color;
+      font-size: 20px;
+      text-align: justify;
+    }
+  }
+  
+  
+}
+}
+
